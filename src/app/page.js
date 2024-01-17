@@ -1,4 +1,4 @@
-import Navbar from "./component/navbar"
+import Navbar from "./component/Navbar"
 import Footer from "./component/Footer"
 import Date from "./component/Dates"
 import Header from "./component/Header"
