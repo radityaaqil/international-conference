@@ -86,10 +86,11 @@ const Header = ({pathname}) => {
         <div className="">
             <div className="bg-black h-[500px] w-full hidden xl:block">
                 <div className="text-4xl flex justify-center items-center space-x-20 pt-32 font-montserrat font-bold text-white">
-                    <div>
+                    <img src="./batikkkk.jpg" className="w-full h-[500px] absolute object-cover z-0 opacity-10"/>
+                    <div className='relative'>
                         <img src="./iconsetlogo.png" className="w-[250px]"/>
                     </div>
-                    <div>
+                    <div className='relative'>
                         <div className="text-center">The 1<sup>st</sup> International Conference on Science,</div>
                         <div className="text-center">Engineering and Technology (iconSET-2024)</div>
                         <div className="text-center text-xl mt-4">15 - 16 February 2024</div>
@@ -97,7 +98,10 @@ const Header = ({pathname}) => {
                     </div>
                 </div>
             </div>
+
+            {/* Mobile */}
             <div className="xl:hidden bg-black h-[500px] px-12">
+                <img src="./batikkkk.jpg" className="w-full h-[500px] absolute left-0 object-fill -z-99 opacity-10"/>
                 <div className="flex justify-between items-center pt-6">
                     <div className="flex justify-center">
                         <img src="./iconsetlogo.png" className="w-[50px]"/>
