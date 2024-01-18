@@ -101,7 +101,7 @@ const Header = ({pathname}) => {
 
             {/* Mobile */}
             <div className="xl:hidden bg-black h-[500px] px-12">
-                <img src="./batikkkkk.png" className="w-full h-[500px] absolute left-0 object-fill -z-99 opacity-10"/>
+                <img src="./batikkkkk.png" className="w-full h-[500px] absolute left-0 object-cover -z-99 opacity-10"/>
                 <div className="flex justify-between items-center pt-6 relative">
                     <div className="flex justify-center">
                         <img src="./iconsetlogo.png" className="w-[50px]"/>
