@@ -1,9 +1,9 @@
 const Header = () => {
     return(
-        <div className="bg-black h-[400px] w-full">
-            <div className="text-3xl flex justify-center items-center space-x-20 pt-32 font-montserrat font-bold text-white">
+        <div className="bg-black h-[500px] w-full">
+            <div className="text-4xl flex justify-center items-center space-x-20 pt-32 font-montserrat font-bold text-white">
                 <div>
-                    <img src="./iconsetlogo.png" className="w-[150px]"/>
+                    <img src="./iconsetlogo.png" className="w-[250px]"/>
                 </div>
                 <div>
                     <div className="text-center">The 1<sup>st</sup> International Conference on Science,</div>
