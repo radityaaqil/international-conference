@@ -282,7 +282,7 @@ const Date = () => {
                         <div className="">
                         <div className="text-2xl text-white pt-20 font-bold text-center">Publication</div> 
                         <div className="mt-8 bg-white h-[200px]">
-                            <div className="mt-8 w-[175px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+                            <div className="ml-2 mt-8 w-[250px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                                 <li>
                                         <img className="w-[100px]" src="./its4.png"/>
@@ -342,7 +342,7 @@ const Date = () => {
                     <div>
                         <div className="text-2xl text-white pt-20 font-bold text-center">Organizer</div>   
                         <div className="mt-8 bg-white h-[200px]">
-                            <div className="mt-8 w-[175px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+                            <div className="ml-2 mt-8 w-[250px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                                 <li>
                                         <img className="w-[100px]" src="./its4.png"/>
@@ -402,7 +402,7 @@ const Date = () => {
                     <div>
                         <div className="text-2xl text-white pt-20 font-bold text-center">Sponsors</div>
                         <div className="mt-8 bg-white h-[200px]">
-                            <div className="mt-8 w-[175px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+                            <div className="ml-2 mt-8 w-[250px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                                 <li>
                                         <img className="w-[100px]" src="./its4.png"/>
