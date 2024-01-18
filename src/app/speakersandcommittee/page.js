@@ -113,51 +113,51 @@ const Speakersandcommittee = () => {
                 <div className="mt-16">
                     <div className="text-lg font-bold my-6">Scientific Committee</div>
                     <div className="flex items-center text-base space-x-4 font-montserrat">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Prof. Suwarno</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Prof. Suwarno</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Prof. Mohan Kolhe</span>, University of Agder, Norway</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Prof. Mohan Kolhe</span>, University of Agder, Norway</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Prof. Ivan Tolj</span>, FSB, Serbia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Prof. Ivan Tolj</span>, FSB, Serbia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Dr. Lukman Nurochim</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Dr. Lukman Nurochim</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Fahmi Mubarok, PhD</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Fahmi Mubarok, PhD</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Prof. Ubaidillah</span>, Universitas Sebelas Maret, Indonesia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Prof. Ubaidillah</span>, Universitas Sebelas Maret, Indonesia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Prof. Nema Mirzaei</span>, Istanbul Aydin University, Turkey</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Prof. Nema Mirzaei</span>, Istanbul Aydin University, Turkey</div>
                     </div>
                 </div> 
                 <div className="mt-16">
                     <div className="text-lg font-bold my-6">Organizing Committee</div>
                     <div className="flex items-center text-base space-x-4 font-montserrat">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Hariyanto, S. T.</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Hariyanto, S. T.</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Bagus Putra, S. T., M. T.</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Bagus Putra, S. T., M. T.</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Faizal Ramadhan, S. T.</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold">Faizal Ramadhan, S. T.</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
-                            <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold bg-yellow-500">ITS Tekno Sains Team</span></div>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
+                            <div className="w-[300px]"><span className="font-bold bg-yellow-500">ITS Tekno Sains Team</span></div>
                     </div>
                 </div> 
                         </div>

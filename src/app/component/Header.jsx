@@ -85,10 +85,10 @@ const Header = ({pathname}) => {
     return(
         <div className="">
             <div className="bg-black h-[500px] w-full hidden xl:block">
-                <div className="text-4xl flex justify-center items-center space-x-20 pt-32 font-montserrat font-bold text-white">
-                    <img src="./batikkkkk.png" className="w-full h-[500px] absolute object-cover z-0 opacity-10"/>
+                <div className="text-4xl flex justify-center items-center space-x-10 pt-32 font-montserrat font-bold text-white">
+                    <img src="./batikkkkk.png" className="w-full h-[500px] absolute object-cover -z-99 opacity-10"/>
                     <div className='relative'>
-                        <img src="./iconsetlogo.png" className="w-[250px]"/>
+                        <img src="./logoconf.png" className="w-[200px] items-start"/>
                     </div>
                     <div className='relative'>
                         <div className="text-center">The 1<sup>st</sup> International Conference on Science,</div>
@@ -104,7 +104,7 @@ const Header = ({pathname}) => {
                 <img src="./batikkkkk.png" className="w-full h-[500px] absolute left-0 object-cover -z-99 opacity-10"/>
                 <div className="flex justify-between items-center pt-6 relative">
                     <div className="flex justify-center">
-                        <img src="./iconsetlogo.png" className="w-[50px]"/>
+                        <img src="./logoconf.png" className="w-[50px]"/>
                     </div>
                     <div className='text-3xl text-white xl:hidden absolute right-0' onClick={onOpen}><TiThMenu/></div>
                         {/* Drawer */}

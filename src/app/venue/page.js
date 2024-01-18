@@ -53,7 +53,7 @@ const Venue = () => {
                     <div>
                         <div className="text-lg font-bold mb-4">Venue</div>
                         <img className="w-[400px] h-[300px]" src="./riset1.jpeg"/>
-                        <img className="w-[400px] h-[300px] mt-8" src="./risett.JPG"/>
+                        <img className="w-[400px] h-[200px] mt-8" src="./risett.JPG"/>
                         <div className="mt-12 flex justify-center">
                             <div className="flex items-center">
                                 <div>
