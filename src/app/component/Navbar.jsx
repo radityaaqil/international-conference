@@ -84,7 +84,7 @@ const Navbar = ({pathname}) => {
     
 
     return(
-    <div className='pt-6 lg:mx-32 flex items-center justify-between font-montserrat'>
+    <div className='pt-6 lg:mx-52 flex items-center justify-between font-montserrat'>
         {/* <Link href="/">
             <div className='text-2xl text-[#1b8694] hover:cursor-pointer'>IC</div>
         </Link> */}

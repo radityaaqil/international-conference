@@ -14,8 +14,8 @@ const Venue = () => {
         <div>
         <Header/>
         <Navbar pathname={pathname}/>
-        <div className="border-b-2 border-gray-300 text-white mx-32">a</div>
-        <div className="mx-32 mt-8">
+        <div className="border-b-2 border-gray-300 text-white mx-52">a</div>
+        <div className="mx-52 mt-8">
             <div className="flex justify-between">
                 <img className="w-[480px] h-[300px]" src="./riset1.jpeg"/>
                 <img className="w-[480px] h-[300px]" src="./mesin.jpeg"/>

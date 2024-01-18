@@ -15,8 +15,8 @@ const Registration = () => {
         <div className="font-montserrat">
         <Header/>
         <Navbar pathname={pathname}/>
-        <div className="border-b-2 border-gray-300 text-white mx-32">a</div>
-        <div className="mx-32 mt-8">
+        <div className="border-b-2 border-gray-300 text-white mx-52">a</div>
+        <div className="mx-52 mt-8">
         <div className="text-justify text-xl">
         Registration is open till February 13th 2024, by filling the form in this <Link href={"https://forms.gle/o8KczDWk8E5KhVj86"}><span className="underline">link</span></Link>. Payment is obligatory done  before the registration deadline. Abstract submission without the payment will not be scheduled for presentation.  
         </div>

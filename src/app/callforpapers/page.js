@@ -14,8 +14,8 @@ const Callforpapers = () => {
         <div>
             <Header/>
             <Navbar pathname={pathname}/>
-            <div className="border-b-2 border-gray-300 text-white mx-32">a</div>
-            <div className="mx-32 mt-8">
+            <div className="border-b-2 border-gray-300 text-white mx-52">a</div>
+            <div className="mx-52 mt-8">
             <div className="w-full h-[400px] bg-yellow-500 text-7xl font-bold text-white">INSERT POSTER HERE</div>
             {/* <div className="text-xl font-bold mb-6">Submit Paper</div> */}
             {/* <div className="text-justify text-xl">

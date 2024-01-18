@@ -15,8 +15,8 @@ const Speakersandcommittee = () => {
             <div>
                 <Header/>
                 <Navbar pathname={pathname}/>
-                <div className="border-b-2 border-gray-300 text-white mx-32">a</div>
-                <div className="mx-32 mt-8">
+                <div className="border-b-2 border-gray-300 text-white mx-52">a</div>
+                <div className="mx-52 mt-8">
                     <div className="text-xl font-bold my-6">Keynote Speakers</div>
                     <div className="flex items-center text-lg space-x-4 font-montserrat">
                             <img className="w-[150px] rounded-full" src="./ismaill.png"/>
@@ -31,7 +31,7 @@ const Speakersandcommittee = () => {
                             <div><span className="font-bold">Fahmi Mubarok, PhD</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                 </div> 
-                <div className="mx-32 mt-16">
+                <div className="mx-52 mt-16">
                     <div className="text-xl font-bold my-6">Scientific Committee</div>
                     <div className="flex items-center text-lg space-x-4 font-montserrat">
                             <GoDotFill className="text-sm text-[#df0201]"/>
@@ -62,7 +62,7 @@ const Speakersandcommittee = () => {
                             <div><span className="font-bold">Prof. Nema Mirzaei</span>, stanbul Aydin University, Turkey</div>
                     </div>
                 </div> 
-                <div className="mx-32 mt-16">
+                <div className="mx-52 mt-16">
                     <div className="text-xl font-bold my-6">Organizing Committee</div>
                     <div className="flex items-center text-lg space-x-4 font-montserrat">
                             <GoDotFill className="text-sm text-[#df0201]"/>

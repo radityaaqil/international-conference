@@ -4,7 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 const Date = () => {
     return(
         <div className="w-full h-[775px] bg-black font-montserrat text-white">
-           <div className="grid grid-cols-3 mx-32">
+           <div className="grid grid-cols-3 mx-52">
             <div>
                 <div className="text-3xl text-white pt-20 font-bold">Important Dates</div>
                 <div className="pt-8">
@@ -60,7 +60,7 @@ const Date = () => {
                 </div>
                 
            </div>
-           <div className="flex justify-around mx-32">
+           <div className="flex justify-around mx-52">
                 <div className="">
                     <div className="text-3xl text-white pt-20 font-bold">Publication</div> 
                     <div className="mt-12">
