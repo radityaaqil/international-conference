@@ -64,23 +64,23 @@ const Callforpapers = () => {
                     <div className="font-montserrat"> 
                         <div className="text-lg font-bold my-6">Subjects and Topics</div>
                         <div className="flex items-center text-base gap-2">
-                            <GoDotFill className="text-xl text-[#df0201] w-[25px]"/>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
                             <div className="w-[300px]">Mechanical, material, and chemical science and engineering for energy application</div>
                         </div>
                         <div className="flex items-center text-base space-x-3 mt-2">
-                            <GoDotFill className="text-xl text-[#df0201] w-[25px]"/>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
                             <div className="w-[300px]">Computational modeling in engineering</div>
                         </div>
                         <div className="flex items-center text-base space-x-3 mt-2">
-                            <GoDotFill className="text-xl text-[#df0201] w-[25px]"/>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
                             <div className="w-[300px]">Asset integrity for petrochemical and energy application</div>
                         </div>
                         <div className="flex items-center text-base space-x-3 mt-2">
-                            <GoDotFill className="text-xl text-[#df0201] w-[25px]"/>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
                             <div className="w-[300px]">Application of AI and Data Analytic for engineering solution</div>
                         </div>
                         <div className="flex items-center text-base space-x-3 mt-2">
-                            <GoDotFill className="text-xl text-[#df0201] w-[25px]"/>
+                            <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
                             <div className="w-[300px]">Advanced and Functional materials for energy and health</div>
                         </div>
                     </div>
