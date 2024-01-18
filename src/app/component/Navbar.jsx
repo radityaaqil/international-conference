@@ -175,22 +175,22 @@ const Navbar = ({pathname}) => {
         {/* Desktop */}
         <div className='hidden md:flex space-x-10 text-lg font-montserrat font-bold'>
             <Link href="/">
-                <div className={homeActive ? `text-[#df0201]` : `text-black`}>Overview</div>
+                <div className={homeActive ? `text-[#2e3191]` : `text-black`}>Overview</div>
             </Link>
             <Link href="/callforpapers">
-                <div className={ceritaActive ? `text-[#df0201]` : `text-black`}>Call for Papers</div>
+                <div className={ceritaActive ? `text-[#2e3191]` : `text-black`}>Call for Papers</div>
             </Link>
             <Link href="/venue">
-                <div className={testimoniActive ? `text-[#df0201]` : `text-black`}>Venue</div>
+                <div className={testimoniActive ? `text-[#2e3191]` : `text-black`}>Venue</div>
             </Link>
             <Link href="/speakersandcommittee">
-                <div className={cekFaktaActive ? `text-[#df0201]` : `text-black`}>Speakers and Committe</div>
+                <div className={cekFaktaActive ? `text-[#2e3191]` : `text-black`}>Speakers and Committe</div>
             </Link>
             <Link href="/submission">
-                <div className={submissionActive ? `text-[#df0201]` : `text-black`}>Submission</div>
+                <div className={submissionActive ? `text-[#2e3191]` : `text-black`}>Submission</div>
             </Link>
             <Link href="/registration">
-                <div className={registrationActive ? `text-[#df0201]` : `text-black`}>Registration</div>
+                <div className={registrationActive ? `text-[#2e3191]` : `text-black`}>Registration</div>
             </Link>
         </div>
     </div>   
