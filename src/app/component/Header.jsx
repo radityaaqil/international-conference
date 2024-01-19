@@ -25,6 +25,7 @@ const Header = ({pathname}) => {
     const [cekFaktaActive, setCekFaktaActive] = useState(false)
     const [submissionActive, setSubmissionActive] = useState(false)
     const [registrationActive, setRegistrationActive] = useState(false)
+    const [committeeActive, setCommitteeActive] = useState(false)
 
     useEffect(()=>{
         if(pathname === "/"){
@@ -34,6 +35,7 @@ const Header = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
     
         if(pathname === "/callforpapers"){
@@ -43,6 +45,7 @@ const Header = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
     
         if(pathname === "/venue"){
@@ -52,15 +55,17 @@ const Header = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
     
-        if(pathname === "/speakersandcommittee"){
+        if(pathname === "/speakers"){
             setHomeActive(false)
             setCeritaActive(false)
             setTestimoniActive(false)
             setCekFaktaActive(true)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
 
         if(pathname === "/submission"){
@@ -70,6 +75,7 @@ const Header = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(true)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
 
         if(pathname === "/registration"){
@@ -79,6 +85,17 @@ const Header = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(true)
+            setCommitteeActive(false)
+        }
+
+        if(pathname === "/committee"){
+            setHomeActive(false)
+            setCeritaActive(false)
+            setTestimoniActive(false)
+            setCekFaktaActive(false)
+            setSubmissionActive(false)
+            setRegistrationActive(false)
+            setCommitteeActive(true)
         }
     },[pathname])
 
@@ -184,7 +201,7 @@ const Header = ({pathname}) => {
                                 </Link>
                                 <Link href="/committee">
                                 <Box
-                                    color={cekFaktaActive ? 'brand.100' : 'black'}
+                                    color={committeeActive ? 'brand.100' : 'black'}
                                     fontSize="lg"
                                     p={4}
                                     h={14}
