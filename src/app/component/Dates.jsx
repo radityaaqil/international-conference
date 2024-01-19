@@ -4,10 +4,10 @@ import { AiOutlineMail } from "react-icons/ai";
 const Date = () => {
     return(
         <div className="w-full ">
-            <div className="h-[875px] bg-black font-montserrat text-white hidden xl:block">
+            <div className="h-[770px] bg-gray-800 font-montserrat text-white hidden xl:block">
             <div className="flex justify-center space-x-32">
                 <div>
-                    <div className="text-3xl text-white pt-20 font-bold">Important Dates</div>
+                    <div className="text-3xl text-white pt-14 font-bold">Important Dates</div>
                     <div className="pt-8">
                         <div className="flex items-center space-x-4">
                             <div className="border-l-2 border-white px-8">
@@ -42,7 +42,7 @@ const Date = () => {
                     <div>
                     </div>
                     <div>
-                        <div className="text-3xl text-white pt-20 font-bold">Contact</div>
+                        <div className="text-3xl text-white pt-14 font-bold">Contact</div>
                         <div className="mt-8">
                             <div className="text-xl">ITS Tekno Sains Academy</div>
                             <div className="text-lg">Research Center Building 3<sup>rd</sup> Floor</div>
@@ -63,7 +63,7 @@ const Date = () => {
             </div>
             <div className="flex justify-around mx-52">
                     <div className="">
-                        <div className="text-3xl text-white pt-20 font-bold">Publication</div> 
+                        <div className="text-3xl text-white pt-12 font-bold">Publication</div> 
                         <div className="mt-8 bg-white h-[200px]">
                             <div className="mt-8 w-[175px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
@@ -122,7 +122,7 @@ const Date = () => {
                         </div>   
                     </div>
                     <div>
-                        <div className="text-3xl text-white pt-20 font-bold">Organizer</div>   
+                        <div className="text-3xl text-white pt-12 font-bold">Organizer</div>   
                         <div className="mt-8 bg-white h-[200px]">
                             <div className="mt-8 w-[175px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
@@ -181,7 +181,7 @@ const Date = () => {
                         </div>  
                     </div>
                     <div>
-                        <div className="text-3xl text-white pt-20 font-bold">Sponsors</div>
+                        <div className="text-3xl text-white pt-12 font-bold">Sponsors</div>
                         <div className="mt-8 bg-white h-[200px]">
                             <div className="mt-8 w-[175px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
@@ -243,10 +243,10 @@ const Date = () => {
             </div>
 
             {/* Mobile */}
-            <div className="w-full mt-16 h-[1950px] bg-black font-montserrat text-white xl:hidden px-16">
+            <div className="w-full mt-16 h-[1850px] bg-gray-800 font-montserrat text-white xl:hidden px-16">
                 <div className="flex justify-center">
                     <div>
-                        <div className="text-2xl text-white pt-20 font-bold">Important Dates</div>
+                        <div className="text-2xl text-white pt-14 font-bold">Important Dates</div>
                         <div className="pt-8">
                             <div className="flex items-center space-x-4">
                                 <div className="border-l-2 border-white px-8">
