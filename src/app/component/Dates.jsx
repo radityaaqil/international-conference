@@ -45,7 +45,7 @@ const Date = () => {
                         <div className="text-3xl text-white pt-20 font-bold">Contact</div>
                         <div className="mt-8">
                             <div className="text-xl">ITS Tekno Sains Academy</div>
-                            <div className="text-lg">Research Center Building 2<sup>nd</sup> Floor</div>
+                            <div className="text-lg">Research Center Building 3<sup>rd</sup> Floor</div>
                             <div className="text-lg">Jl. Teknik Kimia, Kampus ITS Sukolilo</div>
                             <div className="text-lg">Surabaya 60111</div>
                             <div className="text-lg">(031) 5954020</div>
@@ -462,7 +462,7 @@ const Date = () => {
                         <div className="text-2xl text-white pt-20 font-bold">Contact</div>
                         <div className="mt-8">
                             <div className="text-lg">ITS Tekno Sains Academy</div>
-                            <div className="text-base">Research Center Building 2<sup>nd</sup> Floor</div>
+                            <div className="text-base">Research Center Building 3<sup>rd</sup> Floor</div>
                             <div className="text-base">Jl. Teknik Kimia, Kampus ITS Sukolilo</div>
                             <div className="text-base">Surabaya 60111</div>
                             <div className="text-base">(031) 5954020</div>

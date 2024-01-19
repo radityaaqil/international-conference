@@ -18,7 +18,7 @@ const Registration = () => {
                 <Navbar pathname={pathname}/>
                 <div className="border-b-2 border-gray-300 text-white mx-52">a</div>
                 <div className="text-justify text-xl mx-52 mt-8">
-                    Registration is open till February 13th 2024, by filling the form in this <Link href={"https://forms.gle/o8KczDWk8E5KhVj86"}><span className="underline">link</span></Link>. Payment is obligatory done  before the registration deadline. Abstract submission without the payment will not be scheduled for presentation.  
+                    Registration is open till February 13<sup>th</sup> 2024, by filling the form in this <Link href={"https://forms.gle/o8KczDWk8E5KhVj86"} rel="noopener noreferrer" target="_blank"><span className="underline">link</span></Link>. Payment is obligatory done  before the registration deadline. Abstract submission without the payment will not be scheduled for presentation.  
                 </div>
                 <div className="mx-52 mt-8">
                     <div className="flex justify-center">
@@ -129,7 +129,7 @@ const Registration = () => {
                         <div>
                             <div className="text-lg font-bold mt-8">Registration</div>
                             <div className="mt-4 text-justify">
-                                Registration is open till February 13th 2024, by filling the form in this <Link href={"https://forms.gle/o8KczDWk8E5KhVj86"}><span className="underline">link</span></Link>. Payment is obligatory done  before the registration deadline. Abstract submission without the payment will not be scheduled for presentation.  
+                                Registration is open till February 13<sup>th</sup> 2024, by filling the form in this <Link href={"https://forms.gle/o8KczDWk8E5KhVj86"} rel="noopener noreferrer" target="_blank"><span className="underline">link</span></Link>. Payment is obligatory done  before the registration deadline. Abstract submission without the payment will not be scheduled for presentation.  
                             </div>
                         </div>
                     </div>

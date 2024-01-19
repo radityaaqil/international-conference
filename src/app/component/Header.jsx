@@ -84,7 +84,7 @@ const Header = ({pathname}) => {
 
     return(
         <div className="">
-            <div className="bg-black h-[500px] w-full hidden xl:block">
+            <div className="bg-black h-[490px] w-full hidden xl:block">
                 <div className="text-4xl flex justify-center items-center space-x-10 pt-32 font-montserrat font-bold text-white">
                     <img src="./batikkkkk.png" className="w-full h-[500px] absolute object-cover -z-99 opacity-10"/>
                     <div className='relative'>
@@ -169,7 +169,7 @@ const Header = ({pathname}) => {
                                 </Box>
                                 </Link>
                             
-                                <Link href="/speakersandcommittee">
+                                <Link href="/speakers">
                                 <Box
                                     color={cekFaktaActive ? 'brand.100' : 'black'}
                                     fontSize="lg"
@@ -179,7 +179,20 @@ const Header = ({pathname}) => {
                                     _hover={{ fontSize: "xl" }}
                                     transitionDuration="500ms"
                                 >
-                                    Speakers and Committee
+                                    Speakers
+                                </Box>
+                                </Link>
+                                <Link href="/committee">
+                                <Box
+                                    color={cekFaktaActive ? 'brand.100' : 'black'}
+                                    fontSize="lg"
+                                    p={4}
+                                    h={14}
+                                    onClick={onClose}
+                                    _hover={{ fontSize: "xl" }}
+                                    transitionDuration="500ms"
+                                >
+                                    Committee
                                 </Box>
                                 </Link>
                                 <Link href="/submission">
@@ -187,7 +200,6 @@ const Header = ({pathname}) => {
                                     color={submissionActive ? 'brand.100' : 'black'}
                                     fontSize="lg"
                                     p={4}
-                                    py={12}
                                     h={14}
                                     onClick={onClose}
                                     _hover={{ fontSize: "xl" }}

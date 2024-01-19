@@ -1,18 +1,5 @@
 'use client'
 
-import {
-    Drawer,
-    DrawerBody,
-    DrawerFooter,
-    DrawerHeader,
-    DrawerOverlay,
-    DrawerContent,
-    DrawerCloseButton,
-    useDisclosure,
-    Box,
-    Text,
-  } from '@chakra-ui/react'
-import { TiThMenu } from "react-icons/ti";
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
@@ -25,6 +12,7 @@ const Navbar = ({pathname}) => {
     const [cekFaktaActive, setCekFaktaActive] = useState(false)
     const [submissionActive, setSubmissionActive] = useState(false)
     const [registrationActive, setRegistrationActive] = useState(false)
+    const [committeeActive, setCommitteeActive] = useState(false)
 
     useEffect(()=>{
         if(pathname === "/"){
@@ -34,6 +22,7 @@ const Navbar = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
     
         if(pathname === "/callforpapers"){
@@ -43,6 +32,7 @@ const Navbar = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
     
         if(pathname === "/venue"){
@@ -52,15 +42,17 @@ const Navbar = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
     
-        if(pathname === "/speakersandcommittee"){
+        if(pathname === "/speakers"){
             setHomeActive(false)
             setCeritaActive(false)
             setTestimoniActive(false)
             setCekFaktaActive(true)
             setSubmissionActive(false)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
 
         if(pathname === "/submission"){
@@ -70,6 +62,7 @@ const Navbar = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(true)
             setRegistrationActive(false)
+            setCommitteeActive(false)
         }
 
         if(pathname === "/registration"){
@@ -79,98 +72,23 @@ const Navbar = ({pathname}) => {
             setCekFaktaActive(false)
             setSubmissionActive(false)
             setRegistrationActive(true)
+            setCommitteeActive(false)
+        }
+
+        if(pathname === "/committee"){
+            setHomeActive(false)
+            setCeritaActive(false)
+            setTestimoniActive(false)
+            setCekFaktaActive(false)
+            setSubmissionActive(false)
+            setRegistrationActive(false)
+            setCommitteeActive(true)
         }
     },[pathname])
     
 
     return(
     <div className='pt-6 lg:mx-52 flex items-center justify-between font-montserrat'>
-        {/* <Link href="/">
-            <div className='text-2xl text-[#1b8694] hover:cursor-pointer'>IC</div>
-        </Link> */}
-
-        {/* Mobile */}
-        {/* <div className='text-3xl text-[#1b8694] md:hidden' onClick={onOpen}><TiThMenu/></div> */}
-        {/* Drawer */}
-        {/* <Drawer
-            closeOnEsc={true}
-            isOpen={isOpen}
-            placement="right"
-            onClose={onClose}
-        >
-            <DrawerOverlay />
-            <DrawerContent className='font-introRust'>
-            <DrawerHeader>
-                <DrawerCloseButton
-                size={"lg"}
-                mr={3}
-                mt={3}
-                _focusVisible={false}
-                borderRadius="full"
-                transitionDuration="500ms"
-                />
-            </DrawerHeader>
-
-            <DrawerBody className="font-ubuntu">
-                <Link href="/">
-                <Box
-                    color={homeActive ? 'brand.100' : 'black'}
-                    fontSize="lg"
-                    mt={10}
-                    p={4}
-                    h={14}
-                    onClick={onClose}
-                    _hover={{ fontSize: "xl" }}
-                    transitionDuration="500ms"
-                >
-                    <Text>HOME</Text>
-                </Box>
-                </Link>
-                <Link href="/cerita">
-                <Box
-                    color={ceritaActive ? 'brand.100' : 'black'}
-                    fontSize="lg"
-                    p={4}
-                    h={14}
-                    onClick={onClose}
-                    _hover={{ fontSize: "xl" }}
-                    transitionDuration="500ms"
-                >
-                    CERITA
-                </Box>
-                </Link>
-                <Link href="/testimoni">
-                <Box
-                    color={testimoniActive ? 'brand.100' : 'black'}
-                    fontSize="lg"
-                    p={4}
-                    h={14}
-                    onClick={onClose}
-                    _hover={{ fontSize: "xl" }}
-                    transitionDuration="500ms"
-                >
-                TESTIMONI
-                </Box>
-                </Link>
-            
-                <Link href="/cekfakta">
-                <Box
-                    color={cekFaktaActive ? 'brand.100' : 'black'}
-                    fontSize="lg"
-                    p={4}
-                    h={14}
-                    onClick={onClose}
-                    _hover={{ fontSize: "xl" }}
-                    transitionDuration="500ms"
-                >
-                    CEK FAKTA
-                </Box>
-                </Link>
-            </DrawerBody>
-
-            <DrawerFooter></DrawerFooter>
-            </DrawerContent>
-        </Drawer> */}
 
         {/* Desktop */}
         <div className='hidden md:flex space-x-10 text-lg font-montserrat font-bold'>
@@ -183,8 +101,11 @@ const Navbar = ({pathname}) => {
             <Link href="/venue">
                 <div className={testimoniActive ? `text-[#2e3191]` : `text-black`}>Venue</div>
             </Link>
-            <Link href="/speakersandcommittee">
-                <div className={cekFaktaActive ? `text-[#2e3191]` : `text-black`}>Speakers and Committe</div>
+            <Link href="/speakers">
+                <div className={cekFaktaActive ? `text-[#2e3191]` : `text-black`}>Speakers</div>
+            </Link>
+            <Link href="/committee">
+                <div className={committeeActive ? `text-[#2e3191]` : `text-black`}>Committe</div>
             </Link>
             <Link href="/submission">
                 <div className={submissionActive ? `text-[#2e3191]` : `text-black`}>Submission</div>
