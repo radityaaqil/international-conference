@@ -19,7 +19,7 @@ const Callforpapers = () => {
                 <div className="mx-52 mt-8">
                 {/* <div className="w-full h-[400px] bg-yellow-500 text-7xl font-bold text-white">INSERT POSTER HERE</div> */}
                 <div className="flex justify-center">
-                    <img src="./poster.jpeg" className="h-[700px]"/>
+                    <img src="./poster1.jpg" className="h-[700px]"/>
                 </div>
                 {/* <div className="text-xl font-bold mb-6">Submit Paper</div> */}
                 {/* <div className="text-justify text-xl">
@@ -59,7 +59,7 @@ const Callforpapers = () => {
           <div className="mt-8 mx-12 font-montserrat">
             <div className="text-lg font-bold mb-4">Call for Papers</div>
             <div className="flex justify-center">
-                    <img src="./poster.jpeg" className="h-[400px]"/>
+                    <img src="./poster1.jpg" className="h-[400px]"/>
                 </div>
                 {/* <div className="text-xl font-bold mb-6">Submit Paper</div> */}
                 {/* <div className="text-justify text-xl">
