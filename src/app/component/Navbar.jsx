@@ -105,7 +105,7 @@ const Navbar = ({pathname}) => {
                 <div className={cekFaktaActive ? `text-[#2e3191]` : `text-black`}>Speakers</div>
             </Link>
             <Link href="/committee">
-                <div className={committeeActive ? `text-[#2e3191]` : `text-black`}>Committe</div>
+                <div className={committeeActive ? `text-[#2e3191]` : `text-black`}>Committee</div>
             </Link>
             <Link href="/submission">
                 <div className={submissionActive ? `text-[#2e3191]` : `text-black`}>Submission</div>

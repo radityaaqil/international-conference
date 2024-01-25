@@ -66,56 +66,56 @@ const Date = () => {
                         <div className="text-3xl text-white pt-12 font-bold">Publication</div> 
                         <div className="mt-8 bg-white h-[200px]">
                             <div className="mt-8 w-[175px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
-                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll mt-5">
                                 <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                 </ul>
-                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll mt-5" aria-hidden="true">
                                 <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                 </ul>
                             </div>
@@ -283,56 +283,56 @@ const Date = () => {
                         <div className="text-2xl text-white pt-20 font-bold text-center">Publication</div> 
                         <div className="mt-8 bg-white h-[200px]">
                             <div className="ml-2 mt-8 w-[250px] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
-                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll mt-6">
                                 <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                 </ul>
-                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+                                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll mt-6" aria-hidden="true">
                                 <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="w-[100px]" src="./its4.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno.png"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[150px]" src="./itstekno2.png"/>
+                                        <img className="h-[90px]" src="./scientific.png"/>
                                     </li>
                                     <li>
-                                        <img className="h-[80px]" src="./researchcenter.jpg"/>
+                                        <img className="h-[60px]" src="./scopus.png"/>
                                     </li>
                                 </ul>
                             </div>

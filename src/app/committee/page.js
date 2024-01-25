@@ -28,7 +28,7 @@ const Committee = () => {
                     </div>
                     <div className="flex items-center text-lg space-x-4 font-montserrat mt-2">
                             <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold">Prof. Ivan Tolj</span>, FSB, Serbia</div>
+                            <div><span className="font-bold">Prof. Ivan Tolj</span>, University of Split, Croatia</div>
                     </div>
                     <div className="flex items-center text-lg space-x-4 font-montserrat mt-2">
                             <GoDotFill className="text-sm text-[#df0201]"/>
@@ -63,7 +63,7 @@ const Committee = () => {
                     </div>
                     <div className="flex items-center text-lg space-x-4 font-montserrat mt-2">
                             <GoDotFill className="text-sm text-[#df0201]"/>
-                            <div><span className="font-bold bg-yellow-500">ITS Tekno Sains Team</span></div>
+                            <div><span className="font-bold">ITS Tekno Sains Team</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                 </div> 
                 <div className="mt-32 flex">
@@ -92,7 +92,7 @@ const Committee = () => {
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
                             <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
-                            <div className="w-[300px]"><span className="font-bold">Prof. Ivan Tolj</span>, FSB, Serbia</div>
+                            <div className="w-[300px]"><span className="font-bold">Prof. Ivan Tolj</span>, University of Split, Croatia</div>
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
                             <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
@@ -127,7 +127,7 @@ const Committee = () => {
                     </div>
                     <div className="flex items-center text-base space-x-4 font-montserrat mt-2">
                             <GoDotFill className="text-sm text-[#df0201] w-[25px]"/>
-                            <div className="w-[300px]"><span className="font-bold bg-yellow-500">ITS Tekno Sains Team</span></div>
+                            <div className="w-[300px]"><span className="font-bold">ITS Tekno Sains Team</span>, Institut Teknologi Sepuluh Nopember, Indonesia</div>
                     </div>
                 </div> 
                         </div>
