@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <div className="text-xl font-bold mt-12">Proceedings Publication</div>
           <div className="text-justify text-xl mt-3">
-          Papers that are presented in iconSET-2024 will be selected for publications in Scopus-indexed journal proceeding (Scientific committee now under negotiation with publisher). All manuscript are subjected to further full paper review process as required by the publisher. 
+          Papers that are presented in iconSET-2024 will be selected for publications in Scopus-indexed journal proceeding. All manuscript are subjected to further full paper review process as required by the publisher. 
           </div>
         </div> 
         <div className="mt-32 flex">
@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
                 <div className="text-lg font-bold mt-12">Proceedings Publication</div>
                 <div className="text-justify text-lg mt-3">
-                Papers that are presented in iconSET-2024 will be selected for publications in Scopus-indexed journal proceeding (Scientific committee now under negotiation with publisher). All manuscript are subjected to further full paper review process as required by the publisher. 
+                Papers that are presented in iconSET-2024 will be selected for publications in Scopus-indexed journal proceeding. All manuscript are subjected to further full paper review process as required by the publisher. 
                 </div>
               </div>
             </div>
