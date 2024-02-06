@@ -24,7 +24,7 @@ const Submission = () => {
                     <div>
                         Please submit to Easychair system here
                     </div>
-                    <Link href={"https://easychair.org/account/signin?l=gTO3Y4w9sBcLSnA5I1fV6T" } rel="noopener noreferrer" target="_blank"><img className="w-[100px]" src="./logoEC.png"/></Link>
+                    <Link href={"https://easychair.org/account/signin?l=hID1f2a0ypWTDSsa88J3LS" } rel="noopener noreferrer" target="_blank"><img className="w-[100px]" src="./logoEC.png"/></Link>
                 </div>
                 </div> 
                 <div className="mt-32 flex">
@@ -47,7 +47,7 @@ const Submission = () => {
                                 <div className="pb-4">
                                     Please submit to Easychair system here
                                 </div>
-                                <Link href={"https://easychair.org/account/signin?l=gTO3Y4w9sBcLSnA5I1fV6T"} rel="noopener noreferrer" target="_blank"><img className="w-[100px]" src="./logoEC.png"/></Link>
+                                <Link href={"https://easychair.org/account/signin?l=hID1f2a0ypWTDSsa88J3LS"} rel="noopener noreferrer" target="_blank"><img className="w-[100px]" src="./logoEC.png"/></Link>
                             </div>
                         </div>
                     </div>
