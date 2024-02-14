@@ -26,6 +26,7 @@ const Header = ({pathname}) => {
     const [submissionActive, setSubmissionActive] = useState(false)
     const [registrationActive, setRegistrationActive] = useState(false)
     const [committeeActive, setCommitteeActive] = useState(false)
+    const [qnaActive, setQnaActive] = useState(false)
 
     useEffect(()=>{
         if(pathname === "/"){
@@ -36,6 +37,7 @@ const Header = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
     
         if(pathname === "/callforpapers"){
@@ -46,6 +48,7 @@ const Header = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
     
         if(pathname === "/venue"){
@@ -56,6 +59,7 @@ const Header = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
     
         if(pathname === "/speakers"){
@@ -66,6 +70,7 @@ const Header = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
 
         if(pathname === "/submission"){
@@ -76,6 +81,7 @@ const Header = ({pathname}) => {
             setSubmissionActive(true)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
 
         if(pathname === "/registration"){
@@ -86,6 +92,7 @@ const Header = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(true)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
 
         if(pathname === "/committee"){
@@ -96,6 +103,18 @@ const Header = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(true)
+            setQnaActive(false)
+        }
+
+        if(pathname === "/qna"){
+            setHomeActive(false)
+            setCeritaActive(false)
+            setTestimoniActive(false)
+            setCekFaktaActive(false)
+            setSubmissionActive(false)
+            setRegistrationActive(false)
+            setCommitteeActive(false)
+            setQnaActive(true)
         }
     },[pathname])
 
@@ -236,6 +255,19 @@ const Header = ({pathname}) => {
                                     transitionDuration="500ms"
                                 >
                                     Registration
+                                </Box>
+                                </Link>
+                                <Link href="/qna">
+                                <Box
+                                    color={qnaActive ? 'brand.100' : 'black'}
+                                    fontSize="lg"
+                                    p={4}
+                                    h={14}
+                                    onClick={onClose}
+                                    _hover={{ fontSize: "xl" }}
+                                    transitionDuration="500ms"
+                                >
+                                    Program at a Glance
                                 </Box>
                                 </Link>
                             </DrawerBody>

@@ -13,6 +13,7 @@ const Navbar = ({pathname}) => {
     const [submissionActive, setSubmissionActive] = useState(false)
     const [registrationActive, setRegistrationActive] = useState(false)
     const [committeeActive, setCommitteeActive] = useState(false)
+    const [qnaActive, setQnaActive] = useState(false)
 
     useEffect(()=>{
         if(pathname === "/"){
@@ -23,6 +24,7 @@ const Navbar = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
     
         if(pathname === "/callforpapers"){
@@ -33,6 +35,7 @@ const Navbar = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
     
         if(pathname === "/venue"){
@@ -43,6 +46,7 @@ const Navbar = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
     
         if(pathname === "/speakers"){
@@ -53,6 +57,7 @@ const Navbar = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
 
         if(pathname === "/submission"){
@@ -63,6 +68,7 @@ const Navbar = ({pathname}) => {
             setSubmissionActive(true)
             setRegistrationActive(false)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
 
         if(pathname === "/registration"){
@@ -73,6 +79,7 @@ const Navbar = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(true)
             setCommitteeActive(false)
+            setQnaActive(false)
         }
 
         if(pathname === "/committee"){
@@ -83,6 +90,18 @@ const Navbar = ({pathname}) => {
             setSubmissionActive(false)
             setRegistrationActive(false)
             setCommitteeActive(true)
+            setQnaActive(false)
+        }
+
+        if(pathname === "/qna"){
+            setHomeActive(false)
+            setCeritaActive(false)
+            setTestimoniActive(false)
+            setCekFaktaActive(false)
+            setSubmissionActive(false)
+            setRegistrationActive(false)
+            setCommitteeActive(false)
+            setQnaActive(true)
         }
     },[pathname])
     
@@ -91,7 +110,7 @@ const Navbar = ({pathname}) => {
     <div className='pt-6 lg:mx-52 flex items-center justify-between font-montserrat'>
 
         {/* Desktop */}
-        <div className='hidden md:flex space-x-10 text-lg font-montserrat font-bold'>
+        <div className='hidden md:flex space-x-8 text-base font-montserrat font-bold'>
             <Link href="/">
                 <div className={homeActive ? `text-[#2e3191]` : `text-black`}>Overview</div>
             </Link>
@@ -112,6 +131,9 @@ const Navbar = ({pathname}) => {
             </Link>
             <Link href="/registration">
                 <div className={registrationActive ? `text-[#2e3191]` : `text-black`}>Registration</div>
+            </Link>
+            <Link href="/qna">
+                <div className={qnaActive ? `text-[#2e3191]` : `text-black`}>Program at a Glance</div>
             </Link>
         </div>
     </div>   
