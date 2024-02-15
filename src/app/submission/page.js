@@ -17,10 +17,10 @@ const Submission = () => {
                 <Navbar pathname={pathname}/>
                 <div className="border-b-2 border-gray-300 text-white mx-52">a</div>
                 <div className="mx-52 mt-8">
-                <div className="text-justify text-xl">
+                <div className="text-justify text-lg">
                     Please prepare an abstract or full paper consisting of introduction, methodology, results, discussion, and conclusion and references. At this point authors can use any format. Later before publication, the authors need to do reformat the manuscript to the publisher requirement (will be announced later).
                 </div>
-                <div className="text-justify text-xl mt-4 flex items-center space-x-5">
+                <div className="text-justify text-lg mt-4 flex items-center space-x-5">
                     <div>
                         Please submit to Easychair system here
                     </div>
