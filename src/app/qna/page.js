@@ -100,7 +100,7 @@ const QnA = () => {
                         </div>
                     </div>
                     <div className="mt-8 text-lg font-bold">
-                        Please rename your Zoom Meeting ID with "Room Number_Presenter Name" before joining the session.
+                        Please rename your Zoom Meeting ID with &quot;Room Number_Presenter Name&quot; before joining the session.
                     </div>
                 </div>
                 </div> 
@@ -190,7 +190,7 @@ const QnA = () => {
                                     </div>
                                 </div>
                                 <div className="mt-8 text-base font-bold">
-                                    Please rename your Zoom Meeting ID with "Room Number_Presenter Name" before joining the session.
+                                    Please rename your Zoom Meeting ID with &quot;Room Number_Presenter Name&quot; before joining the session.
                                 </div>
                             </div>
                         </div>
